@@ -5,13 +5,14 @@
   text-decoration: none;
   font-size: 17px;
   font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
 }
 
 body{
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url(./assets/Louvre_Museum_Wikimedia_Commons.jpg);
   background-position: 50%;
-  background-position-y: center1;
+  background-position-y: center;
   background-size: auto;
   background-repeat: no-repeat;
   background-blend-mode: color;
@@ -77,6 +78,7 @@ body{
 
 .images-container img{
   height: 300px;
+  border-radius: 30px;
 }
 
 footer {
@@ -130,4 +132,52 @@ footer {
   height: 200px;
   min-height: 200px;
   max-height: 300px;
+}
+
+.msg{
+  padding: 5px;
+  margin-left: 40px;
+}
+
+input{
+  padding: 5px!important;
+  max-width: 400px;
+}
+
+.pepe{
+  display: flex;
+  max-width: 800px;
+}
+
+.form-data{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*EXHIBICIONES Y EVENTOS*/
+
+.cards__container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card h2{
+  margin-bottom: 5px;
+}
+
+.card{
+  max-width: 400px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.card img{
+  border-radius: 30px;
 }

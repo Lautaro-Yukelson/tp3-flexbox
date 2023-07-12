@@ -32,48 +32,55 @@
         <h3>Envianos un mensaje</h3>
         <form action="php/form.php" method="POST" class="form-contacto">
           <div class="form">
-            <label for="nombre" class="sr-only"></label>
-            <input
-              id="nombre"
-              placeholder="Nombre"
-              class="form-control"
-              type="text"
-              name="nombre"
-              required
-            />
+            <div class="pepe">
+              <div>
+                <input
+                  id="nombre"
+                  placeholder="Nombre"
+                  class="form-control"
+                  type="text"
+                  name="nombre"
+                  required
+                  />
 
-            <label for="email" class="sr-only"></label>
-            <input
-              id="email"
-              class="form-control"
-              placeholder="Email"
-              type="email"
-              name="mail"
-              required
-            />
+              <input
+                id="email"
+                class="form-control"
+                placeholder="Email"
+                type="email"
+                name="mail"
+                required
+              />
 
-            <label for="telefono" class="sr-only"></label>
-            <input
-              id="telefono"
-              class="form-control"
-              placeholder="Telefono"
-              type="text"
-              name="telefono"
-              required
-            />
-            <label for="mensaje" class="sr-only"></label>
-            <textarea
-              name="mensaje"
-              id="mensaje"
-              cols="30"
-              rows="5"
-              class="msg"
-              placeholder="Mensaje"
-              required
-            ></textarea>
+              <input
+                id="telefono"
+                class="form-control"
+                placeholder="Telefono"
+                type="text"
+                name="telefono"
+                required
+              />
+              </div>
+
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="5"
+                class="msg"
+                placeholder="Mensaje"
+                required
+              ></textarea>
+            </div>
             <div class="button-container">
               <button class="button" type="submit">ENVIAR</button>
             </div>
+
+            <div class="form-data">
+              <p>info@louvre.fr</p>
+              <p>+33 (0)1 40 20 53 17</p>
+            </div>
+
           </div>
         </form>
       </fieldset>
